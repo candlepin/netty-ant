@@ -8,7 +8,7 @@ Summary: netty lib
 Group: Internet/Applications
 License: Apache
 Version: 3.3.1
-Release: 3%{?dist}
+Release: 4%{?dist}
 URL: http://netty.io/
 Source: %{name}-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Mar 21 2014 jesus m. rodriguez 3.3.1-4
+- rebuild for thumbslug build
+
 * Wed Apr 25 2012 Chris Duryee (beav) <cduryee@redhat.com>
 - add symlink (cduryee@redhat.com)
 
