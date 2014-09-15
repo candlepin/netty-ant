@@ -3,3 +3,15 @@ default_builder = tito.builder.Builder
 default_tagger = tito.tagger.ReleaseTagger
 changelog_do_not_remove_cherrypick = 0
 changelog_format = %s (%ae)
+
+[katello-thirdparty-candlepin-rhel6]
+disttag = .el6
+blacklist =
+
+[katello-thirdparty-candlepin-rhel7]
+disttag = .el7
+blacklist =
+
+[katello-thirdparty-candlepin-fedora19]
+disttag = .fc19
+blacklist =
